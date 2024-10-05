@@ -11,15 +11,14 @@ int main() {
         cin >> arr[i];
     }
     int width = 0;
-    for (i =0 ; i< n; i++) {
+    for (i = 0 ; i< n; i++) {
         if (arr[i] <= h){
-            width +=1;
+            width += 1;
         }
         else{
             width +=2;
         }
-        cout << width;
     }
-    return 0;
+    cout << width;
 
 }
