@@ -22,6 +22,5 @@ int main() {
     cout << width;
 
 }
-
     // Time - O(n)
 
